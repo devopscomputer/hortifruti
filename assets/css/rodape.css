@@ -1,0 +1,31 @@
+.rodape {
+    background: #bfbfbf79;
+    color: #1b1b1b;
+    font-family: fonte1;
+    text-shadow: 
+    rgb(24, 24, 24) 0 5px 10px;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 400%;
+    width: 100%;
+}
+
+@font-face {
+    font-family: fonte1;
+    src: url(../Event\ Horizon.ttf);
+}
+
+
+@media screen and (min-width: 0) {
+    .rodape {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .rodape {
+        display: block;
+    }
+}
